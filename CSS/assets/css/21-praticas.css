@@ -1,0 +1,50 @@
+:root{
+    --color: rgb(11,191,11);
+    --color2: rgb(53, 82, 163);
+}
+
+nav.menu input{
+    width: 7rem;
+    padding: 00.5rem 1rem;
+}
+nav.menu ul li{
+    display: inline;
+    margin-right: 1rem;
+
+}
+nav.menu:hover ul{
+    display: block;
+}
+nav.menu li::after{
+    content: "|";
+}
+nav.menu li:last-child::after{
+    content: "";
+}
+nav.menu ul::before{
+    content: "<";
+}
+nav.menu ul::after{
+    content: ">";
+}
+nav.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+
+}
+nav.menu a{
+    background-color: var(--color1);
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(--color2);
+    width: 5rem;
+    text-align: center;
+}
+nav.menu .active,
+nav.menu a:hover{
+    background-color: var(--color2);
+    color: white;
+}

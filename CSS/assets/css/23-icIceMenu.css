@@ -1,0 +1,47 @@
+ 
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+   
+  .menu li{
+    float: left;
+    position: relative;
+    width: 120px;
+  }
+   
+  .menu ul li ul{
+    display: none;
+  }
+   
+  .menu ul li:hover ul{
+    display: block;
+  }
+   
+  .menu ul li a{
+    text-decoration: none;
+    background: pink;
+    display: block;
+    color: red;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    border-left: 1px solid ;
+    padding: 5px;
+    margin-left: 1rem;
+  }
+   
+  .menu ul li ul li a{
+    color: black;
+    background: pink;
+    text-align: left;
+    padding: 5px;
+    font-size: .8em;
+  }
+  .menu li a:hover{
+    color: white;
+    background: rgb(224, 13, 13);
+
+  }
+  
