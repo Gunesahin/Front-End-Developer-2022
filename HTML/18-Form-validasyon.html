@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validasyon</title>
+</head>
+<body>
+    <table>
+        <tr>Asagidaki kayit formunu olusturunuz.En uygun sekilde form Validasyonu yapiniz?</tr>
+        <tr>
+            <td>Adı</td>
+            <td><input type="text" name="ad" id="ad" minlength="2" maxlength="30" required><br></td>
+            <td>Hobiler</td>
+            <td><input type="checkbox" name="futbol" id="futbol"><label for="futbol">Futbol</label></td>
+        </tr>
+        <tr>
+            <td>Soyadı</td>
+            <td><input type="text" name="ad" id="ad" minlength="2" maxlength="30" required><br></td>
+            <td></td>
+            <td><input 
+                type="checkbox" 
+                name="Voleybol" 
+                id="Voleybol"><label 
+                for="Voleybol">Voleybol</label></td>
+        </tr>
+        <tr>
+            <td>Cinsiyet</td>
+            <td><input type="radio" name="cinsiyet" id="cinsiyetE"><label for="cinsiyetE">Bay</label>
+                <input type="radio" name="cinsiyet" id="cinsiyetK"><label for="cinsiyetK">Bayan</label></td>
+            <td></td>
+            <td><input 
+                type="checkbox" 
+                name="Basketbol" 
+                id="Basketbol"><label 
+                for="Basketbol">Basketbol</label></td>
+        </tr>
+        <tr>
+            <td>İlçe</td>
+            <td><select name="sehir" id="sehir" size="">
+                <option valus="">Seçiniz</option>
+                <option value="1">BESIKTAS</option>
+                <option value="2">TAKSIM</option>
+                <option value="3">SARIYER</option>
+            </select></td>
+            <td>Profil fotografi</td>
+            <td><label for="profil"></label><input type="file" name="profil" id="profil"></td>
+        </tr>
+        <tr>
+            <td>Eposta</td>
+            <td><input type="email" name="eposta" id="eposta" required><br></td>
+            <td>Doğum Tarihi</td>
+            <td><input type="date" name="dogum" id="dogum"><br></td>
+        </tr>
+        <tr>
+            <td>Kişisel Site</td>
+            <td><input type="text" name="ad" id="ad" minlength="2" maxlength="30" required><br></td>
+            <td>Adres</td>
+            <td><textarea name="ozgecmis" id="ozgecmis" cols="17" rows="3"></textarea></td>
+        </tr>
+        <tr>
+            <td>Telefon</td>
+            <td><input type="tel" name="telefon" id="telefon" required><br></td>
+            <td></td>
+            <td> <input type="submit" value="Kayıt ol"></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
